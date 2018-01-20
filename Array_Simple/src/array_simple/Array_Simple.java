@@ -21,6 +21,8 @@ public class Array_Simple {
         //Segundo Recorido 
         for (int i = 0; i < strArray.length-1; i++)
         {
+            
+            // Se realiza el primer recorido desde abc hasta def
             for (int j = i+1; j < strArray.length; j++)
             {
                 if( (strArray[i].equals(strArray[j])) && (i != j) )
